@@ -1,0 +1,173 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0px;
+  background-color: rgb(151, 52, 243);
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.container {
+
+  border-radius: 20px 20px;
+  height: 500px;
+  width: 67%;
+  margin: 77px auto;
+  background-color: rgba(134, 26, 158, 0.7);
+
+}
+
+.section {
+  padding: 12px 12px;
+  font-size: 20px;
+  margin: auto;
+  color: white;
+
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  padding: 42px 52px;
+}
+
+.img1 {
+  height: 350px;
+  width: 350px;
+  position: relative;
+  float: right;
+  top: 30px;
+  padding: 27px 20px;
+}
+
+.heading {
+  color: white;
+  font-size: 58px;
+  font-weight: bold;
+  padding: 20px 38px;
+  width: 43%;
+  margin: -12px 21px;
+  line-height: 1.2;
+}
+
+.button {
+  padding: 0px 40px;
+  margin: 22px 24px;
+}
+
+#btn {
+  padding: 10px;
+  color: white;
+  background-color: #8a2be200;
+  border: 1px solid white;
+  border-radius: 20px 20px;
+  font-size: 18px;
+  width: 128px;
+}
+
+
+.toDoList {
+  background-color: rgb(36, 36, 36);
+  display: none;
+  text-align: center;
+  position: relative;
+  top: 0px;
+
+}
+
+.task_section h1 {
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0px;
+  padding: 55px 26px;
+  background-image: linear-gradient(to right, black, rgb(140, 139, 139));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.form {
+  margin: 0px;
+  margin-top: 7px;
+  margin-bottom: 20px;
+
+}
+
+.task_txt {
+  padding: 13px 17px;
+  width: 35%;
+  border-radius: 15px;
+  border: 0px;
+  outline: none;
+  background-color: black;
+  color: #989898;
+  font-family: 'Poppins', sans-serif;
+}
+
+#task_submit {
+  padding: 8px;
+  border-radius: 18px;
+  border: 0px;
+  width: 10%;
+  font-size: 21px;
+  margin-left: 10px;
+  background-image: linear-gradient(to right, #c75c6e, #ad79ad80);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+
+}
+
+#input_task {
+  padding: 10px 17px;
+  width: 30%;
+  border-radius: 15px;
+  border: 0px;
+  margin: 17px 0px;
+  background-color: black;
+  color: #b7b7b7;
+  outline: none;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#input_task:focus {
+  background-color: #6a625882;
+  color: #b7b7b7;
+}
+
+.task {
+
+  margin-left: -263px;
+
+}
+
+.edit,
+.delete {
+  border: 0px;
+  width: 3.5%;
+  font-size: 15px;
+  position: relative;
+  left: 653px;
+  background-color: black;
+  cursor: pointer;
+
+
+}
+
+.edit {
+  background-image: linear-gradient(to right, rgb(219 101 122), rgb(189 29 189));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.delete {
+  background-image: linear-gradient(to left, #60c0d7, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 3.9%;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@200;400&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="container" id="header">
+    <div class="section">
+      <img src="images/logo.jpg" alt="" class="logo">
+      <img class="img1" src="images/img1.png" alt="ERROR">
+    </div>
+    <div class="heading">
+      <span>Conquer Your Chaos!</span>
+    </div>
+    <div class="button">
+      <button id="btn" onclick="todo()">Get Started</button>
+
+    </div>
+  </div>
+
+  <div class="toDoList" id="todo">
+    <div class="task_section">
+      <h1>Task List</h1>
+      <form action="" class="form" onsubmit="addtask(event)">
+        <input type="text" class="task_txt" id="task_form" placeholder="Add a new task here......">
+        <input type="submit" id="task_submit" value="Add task">
+      </form>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+
+
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
